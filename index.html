@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Thabiso Mosime</title>
+	<meta charset="utf-8">
+
+	<link href="./static/assets/favicon.ico" rel="icon">
+	<link rel="stylesheet" href="./static/style.css">
+
+</head>
+<body>
+
+	<nav>
+
+		<div id="navbar">
+			<div id="links">
+				<a class="nav-link" href="#section-home">Home</a>
+				<a class="nav-link" href="#section-portfolio">Projects</a>
+				<a class="nav-link" href="#section-resume">Skills</a>
+				<a class="nav-link" href="#section-about">About</a>
+				<a class="nav-link" href="#section-contact">Contact</a>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Mobile Menu -->
+	<div id="mobile-menu" class="mobile-menu">
+		<ul class="navbar-nav">
+			<li class="nav-item"><a class="nav-link" href="#section-home">Home</a></li>
+			<li class="nav-item"><a class="nav-link" href="#section-portfolio">Projects</a></li>
+			<li class="nav-item"><a class="nav-link" href="#section-resume">Skills</a></li>
+			<li class="nav-item"><a class="nav-link" href="#section-about">About</a></li>
+			<li class="nav-item"><a class="nav-link" href="#section-contact">Contact</a></li>
+		</ul>
+	</div>
+
+
+	<section class="site-hero" style="background-image: url(./static/assets/images/image_1.jpg);" id="section-home" data-stellar-background-ratio="0.5">
+		<div class="container">
+			<div class="row intro-text align-items-center justify-content-center" >
+				<div class="col-md-10 text-center pt-5">
+					<h1 class="site-heading site-animate" style=" font-size: 80px; padding-bottom: 250px;" >Hello, I'm</h1>
+					
+					<a href="#" class="name" >Thabiso Mosime</a>
+						
+						<span class="text_1"><b>Umuzi Recruit C24</b>	</span>
+						<span class="text_2"><b> Data Engineering </b>
+					</span>	
+					
+					
+					<STYle>
+						@keyframes typewriter {
+						0%, 100% {
+							width: 0;
+						}
+						20%, 80% {
+							width: 12em;
+						}
+						}
+
+						@keyframes caret {
+						0%, 100% {
+							opacity: 0;
+						}
+						80% {
+							opacity: 1;
+						}
+						}
+
+
+						@keyframes text2 {
+							0%, 50%, 100% {
+								width: 0;
+							}
+							
+							60%, 90% {
+								width: 11em;
+							}
+							}
+							@keyframes text1 {
+							0%, 50%, 100% {
+								width: 0;
+							}
+							10%, 40% {
+								width: 18em;
+							}
+							}
+							
+						
+
+							.text_1 {
+							animation: text1;
+							}
+							.text_2 {
+							animation: text2;
+							}
+
+							.text_0 {
+							overflow: hidden;
+							white-space: nowrap;
+							animation: typewriter;
+							display: inline-block;
+							position: relative;
+							animation-duration: 10s;
+							animation-timing-function: steps(25, end);
+							font-family: 'Audiowide', cursive;
+							animation-iteration-count: 0;
+							}
+
+
+							.text_0::after {
+							content: "|";
+							position:relative;
+							color:green;
+							right: 0;
+							animation: caret infinite;
+							animation-duration: 1s;
+							animation-timing-function: steps(1, end);
+							}
+
+							.text_1, .text_2 {
+							overflow: hidden;
+							font-size: 35px;
+							color:white;
+							white-space: nowrap;
+							display: inline-block;
+							position: relative;
+							animation-duration: 15s;
+							animation-timing-function: steps(25, end);
+							animation-iteration-count: infinite;
+							}
+							.text_1::after, .text_2::after {
+							content: "_";
+							position: absolute;
+							right: 0;
+							color:green;
+							animation: caret infinite;
+							animation-duration: 1s;
+							animation-timing-function: steps(1, end);
+							}
+
+					</STYle>
+
+				</div>
+			</div>
+		</div>
+	</section> <!-- section -->
+
+
+	<section class="site-section" id="section-portfolio">
+		<div class="container">
+			<div class="row">
+				<div class="section-heading text-center col-md-12">
+					<h2>My <strong>Projects</strong></h2>
+				</div>
+			</div>
+			<div class="filters">
+				<ul>
+					<li class="active" data-filter="*">All</li>
+				</ul>
+			</div>
+
+		</div>
+	</section>
+	<!-- .section -->
+
+	
+	<section class="site-section " id="section-resume">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 mb-5">
+					<div class="section-heading text-center">
+						<h2>My <strong>Skills</strong></h2>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<h2 class="mb-5">Education</h2>
+
+					<div class="resume-item mb-4">
+						<span class="date"><span class="icon-calendar"></span> January 2006 – December
+						2008</span>
+						<h3>High School (National Senior Certificate)</h3>
+						<p>	President Mangope Technical High School<br>
+						</p>
+						<span class="school">Rustenburg</span>
+					</div>
+
+				</div>
+				<div class="col-md-6">
+
+
+					<h2 class="mb-5">Experience</h2>
+
+					<div class="resume-item mb-4">
+						<span class="date"><span class="icon-calendar"></span> July 2012 – July 2014</span>
+						<h3>Field Marketer - Smollan Sales and Marketing</h3>
+						<p>Merchandising, Placing Orders, Damaged Products Management<small></small> </p>
+						<span class="school">Smollan</span>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section> <!-- .section -->
+
+	<section class="site-section" id="section-about">
+		<div class="container">
+			<div class="row mb-5 align-items-center">
+				<div class="col-lg-7 pr-lg-5 mb-5 mb-lg-0">
+					<img src="./static/assets/images/my_pic1.jpg" alt="Image placeholder" class="img-fluid">
+				</div>
+				<div class="col-lg-5 pl-lg-5">
+					<div class="section-heading">
+						<h2>About <strong>Me</strong></h2>
+					</div>
+					<p class="lead">Programmer, Problem Solver, I am fascinated by computers and technology, and also eager to learn new
+						things. I love anything data. I am fuelled by my passion for
+						understanding the workings of computers. I consider myself a ‘forever
+						student’, eager to both build my academic foundations in software
+						engineering and development and stay tuned in latest technology
+						innovations through continued coursework.</p>
+					<p class="mb-5  ">I like to work in the field of web development and database applications as this are the fields that interest me the most. Python is my favorite programming language but I am always ready to lear new technologies.</p>
+
+				</div>
+			</div>
+
+
+		</div>
+	</section>
+
+	<section class="site-section" id="section-contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 mb-5">
+					<div class="section-heading text-center">
+						<h2>Get <strong>In Touch</strong></h2>
+					</div>
+				</div>
+				
+				<div class="col-md-5 pl-md-5">
+					<h3 class="mb-5">My Contact Details</h3>
+					<ul class="site-contact-details">
+						<li>
+							<span class="text-uppercase">Email</span>
+							tmosime247@gmail.com
+						</li>
+						<li>
+							<span class="text-uppercase">Phone</span>
+							+27 68 578 0663
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<footer class="site-footer">
+		<div class="container">
+			
+			<div class="row mb-5">
+				<div class="col-md-12 text-center">
+					<p>
+						<a href="#" class="social-item"><span class="icon-github"></span></a>
+						<a href="www.linkedin.com/in/thabisomosime/" class="social-item"><span class="icon-linkedin2"></span></a>
+					</p>
+				</div>
+			</div>
+			
+		</div>
+	</footer>
+
+    </body>
+    </html>
