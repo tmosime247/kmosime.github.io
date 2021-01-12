@@ -97,20 +97,17 @@ a:hover {
   font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
-  position: absolute;
   padding-bottom: 40px;
   top: 50%;
   left: 420px;
   width: 100%;
   padding-top: 60px;
-  -webkit-transform: translate(-40%, -40%);
-          transform: translate(-40%, -40%);
-  margin: 0;
   color: rgb(15, 153, 61);
   letter-spacing: 5px;
 }
 
 .site-hero {
+  font-family: "Open Sans", sans-serif;
   background-color: #ccc;
   background-size: cover;
   background-position: center center;
@@ -147,6 +144,31 @@ a:hover {
     max-width: 640px;
     margin: 0 auto;
     color: rgba(255, 255, 255, 0.5); }
+
+  .site-section {
+    font-family: "Open Sans", sans-serif;
+    padding: 5em 0; }
+
+  .site-footer {
+    padding: 3em 0; }
+    .site-footer p:last-child {
+      margin-bottom: 0; }
+    .site-footer .social-item {
+      display: inline-block;
+      width: 60px;
+      height: 60px;
+      background: #333;
+      position: relative;
+      border-radius: 50%;
+      font-size: 22px;
+      margin: 0 10px; }
+      .site-footer .social-item > span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%); }
 
 .container {
   width: 100%;
@@ -222,4 +244,15 @@ a:hover {
   .col-md-6 {
       grid-column: span 5;
   }
+}
+
+.thick-green-border {
+  border-color: rgba(255, 255, 255, 0.4);;
+  border-width: 10px;
+  border-style: solid;
+  border-radius: 50%;
+}
+
+.smaller-image {
+  width: 150px;
 }
